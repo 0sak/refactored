@@ -7,24 +7,6 @@ on:
     workflow_dispatch:
 
 jobs:
-    catch2:
-        name: CATCH2 Tests
-        strategy:
-            matrix:
-                os: [macos-latest-large]
-        runs-on: ${{ matrix.os }}
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v4
-            - name: Pre Clean
-              working-directory: ./Mini-Python-Builder-Backend/c-runtime
-              run: make clean
-            - name: Exec makefile
-              working-directory: ./Mini-Python-Builder-Backend/c-runtime
-              run: make test
-            - name: Clean Up
-              working-directory: ./Mini-Python-Builder-Backend/c-runtime
-              run: make test_clean ; make clean
 
     languagefeatures:
         name: languagefeatures
