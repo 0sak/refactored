@@ -1,5 +1,4 @@
 rootProject.name = 'Mini-Python'
-include 'Mini-Python-Builder'
-include 'Frontend'
+include 'Mini-Python-Builder-Backend'
 include 'Frontend'
 
