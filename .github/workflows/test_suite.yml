@@ -10,7 +10,6 @@ jobs:
 
     languagefeatures:
         name: languagefeatures
-        needs: catch2
         strategy:
             matrix:
                 os: [ubuntu-latest, macos-latest-large]
