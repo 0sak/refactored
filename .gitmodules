@@ -1,0 +1,3 @@
+[submodule "Mini-Python-Builder-Backend"]
+	path = Mini-Python-Builder-Backend
+	url = https://github.com/Compiler-CampusMinden/Mini-Python-Builder.git
